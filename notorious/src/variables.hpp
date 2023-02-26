@@ -4,8 +4,9 @@
 class c_variables {
 public:
 	struct {
-		bool hidden_remover = false;
-	} enlighten;
+		bool enabled = false;
+		int rate = 100;
+	} timewarp;
 };
 
 inline auto variables = std::make_unique<c_variables>();

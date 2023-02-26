@@ -23,6 +23,7 @@
     <ClCompile Include="src\features\enlighten\hidden_remover.cpp" />
     <ClCompile Include="src\hooks\detour\detour.cpp" />
     <ClCompile Include="src\hooks\detour\hde.cpp" />
+    <ClCompile Include="src\hooks\functions\set_playback_rate.cpp" />
     <ClCompile Include="src\hooks\functions\swap_buffers.cpp" />
     <ClCompile Include="src\hooks\hooks.cpp" />
     <ClCompile Include="src\menu\menu.cpp" />
@@ -56,6 +57,10 @@
     <ClInclude Include="src\utilities\lib\imgui\imstb_rectpack.h" />
     <ClInclude Include="src\utilities\lib\imgui\imstb_textedit.h" />
     <ClInclude Include="src\utilities\lib\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\utilities\memory_scanner\char_queue.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\memory_scanner.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\pattern.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\simd_scanner.hpp" />
     <ClInclude Include="src\utilities\security\xor.hpp" />
     <ClInclude Include="src\utilities\utilities.hpp" />
     <ClInclude Include="src\variables.hpp" />

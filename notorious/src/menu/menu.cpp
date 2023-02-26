@@ -28,8 +28,12 @@ void c_menu::on_swap_buffers() {
 	if (!this->m_opened)
 		return;
 
-	if (ImGui::Begin("Notorious base", nullptr)) {
+	if (ImGui::Begin(xs("Notorious"), nullptr)) {
 
+		ImGui::Checkbox(xs("Timewarp"), &variables->timewarp.enabled);
+		if (variables->timewarp.enabled) {
+			ImGui::SliderInt(xs("Rate"), &variables->timewarp.rate, 25, 175);
+		}
 
 		ImGui::End();
 	}

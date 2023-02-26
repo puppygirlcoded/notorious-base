@@ -1,0 +1,17 @@
+
+*.vsidx
+*.lock
+.vs/notorious/v17/.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+*.dll
+*.pdb
+*.obj
+*.recipe
+*.ilk
+*.tlog
+*.log
+*.idb

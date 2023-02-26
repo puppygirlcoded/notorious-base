@@ -18,6 +18,7 @@
     <ClCompile Include="src\menu\menu.cpp" />
     <ClCompile Include="src\features\enlighten\hidden_remover.cpp" />
     <ClCompile Include="src\state\state.cpp" />
+    <ClCompile Include="src\hooks\functions\set_playback_rate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utilities\console\console.hpp" />
@@ -41,5 +42,9 @@
     <ClInclude Include="src\menu\menu.hpp" />
     <ClInclude Include="src\state\state.hpp" />
     <ClInclude Include="src\features\enlighten\hidden_remover.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\simd_scanner.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\pattern.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\memory_scanner.hpp" />
+    <ClInclude Include="src\utilities\memory_scanner\char_queue.hpp" />
   </ItemGroup>
 </Project>

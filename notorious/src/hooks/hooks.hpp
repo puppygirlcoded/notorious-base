@@ -15,6 +15,9 @@ namespace n_detours {
 
 	inline define_hook(h_swap_buffers, HDC, _stdcall);
 	bool _stdcall swap_buffers_hooked(HDC hdc);
+
+	inline define_hook(h_set_playback_rate, double, __stdcall);
+	void __stdcall set_playback_rate_hooked(double rate);
 }
 
 class c_hooks {
