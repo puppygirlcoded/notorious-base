@@ -1,2 +1,2 @@
 # notorious-base
-osu! base with swap buffers already hooked for you. :)
+osu!stable internal cheat created for educational purposes
